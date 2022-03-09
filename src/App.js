@@ -1,6 +1,7 @@
 // import React, { useEffect, useMemo } from "react"
 import { Route, Routes, Navigate } from "react-router-dom"
 import Login from "./components/Login"
+import { BrowserRouter as Router } from "react-router-dom"
 // import Details from "./components/Details"
 // import List from "./components/List"
 // import { useState } from "react"
@@ -77,10 +78,11 @@ function App() {
   return (
     <div className="App h-100">
       {/* <UserContext.Provider value={value}> */}
-        {/* <div style={style}>
+      {/* <div style={style}>
           <ScaleLoader color={"#123abc"} size={80} loading={loading} />
         </div> */}
-        {<h1>PROBANDO!!!!!!!!!</h1>}
+      {<h1>PROBANDO!!!!!!!!!</h1>}
+      <Router basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<Login title="Login" />} />
 
@@ -104,6 +106,7 @@ function App() {
               ))
             : null} */}
         </Routes>
+      </Router>
       {/* </UserContext.Provider> */}
     </div>
   )
