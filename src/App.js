@@ -82,7 +82,7 @@ function App() {
         </div> */}
 
         <Routes>
-          <Route path="/" element={<Login title="Login" />} />
+          <Route path="/login" element={<Login title="Login" />} />
 
           {/* {films.map((film) => (
             <Route
