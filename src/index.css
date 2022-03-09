@@ -59,7 +59,7 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  background-image: url("https://source.unsplash.com/_yXN-3jHrfg/2400x3600");
+  /* background-image: url("https://source.unsplash.com/_yXN-3jHrfg/2400x3600"); */
   background-position-x: center;
   background-size: cover;
   background-repeat: no-repeat;
