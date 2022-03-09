@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "https://joseangeltelecom.github.io/star-war-final/static/css/main.e15fa084.css",
-    "main.js": "https://joseangeltelecom.github.io/star-war-final/static/js/main.738f32ab.js",
+    "main.js": "https://joseangeltelecom.github.io/star-war-final/static/js/main.fcb06fa4.js",
     "index.html": "https://joseangeltelecom.github.io/star-war-final/index.html",
     "main.e15fa084.css.map": "https://joseangeltelecom.github.io/star-war-final/static/css/main.e15fa084.css.map",
-    "main.738f32ab.js.map": "https://joseangeltelecom.github.io/star-war-final/static/js/main.738f32ab.js.map"
+    "main.fcb06fa4.js.map": "https://joseangeltelecom.github.io/star-war-final/static/js/main.fcb06fa4.js.map"
   },
   "entrypoints": [
     "static/css/main.e15fa084.css",
-    "static/js/main.738f32ab.js"
+    "static/js/main.fcb06fa4.js"
   ]
 }
