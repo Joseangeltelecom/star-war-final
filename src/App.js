@@ -80,9 +80,9 @@ function App() {
         {/* <div style={style}>
           <ScaleLoader color={"#123abc"} size={80} loading={loading} />
         </div> */}
-
+        {<h1>PROBANDO!!!</h1>}
         <Routes>
-          <Route path="/login" element={<Login title="Login" />} />
+          <Route path="/" element={<Login title="Login" />} />
 
           {/* {films.map((film) => (
             <Route
