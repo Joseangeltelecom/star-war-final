@@ -68,18 +68,18 @@ function App() {
     ]
   )
 
-  const style = {
-    position: "fixed",
-    top: "50%",
-    left: "50%",
-    transform: "translate(-50%, -50%)",
-  }
+  // const style = {
+  //   position: "fixed",
+  //   top: "50%",
+  //   left: "50%",
+  //   transform: "translate(-50%, -50%)",
+  // }
   return (
     <div className="App h-100">
-      <UserContext.Provider value={value}>
+      {/* <UserContext.Provider value={value}>
         <div style={style}>
           <ScaleLoader color={"#123abc"} size={80} loading={loading} />
-        </div>
+        </div> */}
 
         <Routes>
           <Route path="/" element={<Login title="Login" />} />
@@ -104,7 +104,7 @@ function App() {
               ))
             : null} */}
         </Routes>
-      </UserContext.Provider>
+      {/* </UserContext.Provider> */}
     </div>
   )
 
