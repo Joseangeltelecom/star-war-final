@@ -1,7 +1,7 @@
 // import React, { useEffect, useMemo } from "react"
 import { Route, Routes, Navigate } from "react-router-dom"
 import Login from "./components/Login"
-import { BrowserRouter as Router } from "react-router-dom"
+import { HashRouter as Router } from "react-router-dom"
 // import Details from "./components/Details"
 // import List from "./components/List"
 // import { useState } from "react"
@@ -82,7 +82,7 @@ function App() {
           <ScaleLoader color={"#123abc"} size={80} loading={loading} />
         </div> */}
       {<h1>PROBANDO!!!!!!!!!</h1>}
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router>
         <Routes>
           <Route path="/" element={<Login title="Login" />} />
 
