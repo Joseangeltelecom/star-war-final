@@ -11,7 +11,7 @@ function Login(props) {
   const [password, setPassword] = useState("")
   const [error, setError] = useState("")
 
-  const { setUser, setFilms, setLoading } = useContext(UserContext)
+//   const { setUser, setFilms, setLoading } = useContext(UserContext)
 
   useEffect(() => {
     document.title = props.title || "Login"
@@ -33,7 +33,7 @@ function Login(props) {
   const getData = async (e) => {
     try {
       e.preventDefault()
-      setLoading(true)
+    //   setLoading(true)
       let array = []
       const firstData = await axios.get(
         `https://swapi.dev/api/people/?search=${username}`
@@ -51,12 +51,12 @@ function Login(props) {
             "user",
             JSON.stringify(firstData.data.results[0])
           )
-          setUser(firstData.data.results[0])
+        //   setUser(firstData.data.results[0])
           localStorage.setItem("films", JSON.stringify(array))
 
-          setFilms(array)
+        //   setFilms(array)
           navigate("/list")
-          setLoading(false)
+        //   setLoading(false)
         } else {
           setError("Usuario y/o contraseña incorrectos")
         }
